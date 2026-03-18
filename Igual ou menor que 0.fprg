@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Igual ou menor que 0"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:45:53 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYxNDsyMDI2LTAzLTE4OyIwMjoyODo0NCAiOzI0Mjg="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYxNDsyMDI2LTAzLTE4OyIwMjo0NTo1MyAiOzE7MjUzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um valor:&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor &gt;0">
+                <then>
+                    <output expression="&quot;Valor positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="valor=0">
+                        <then>
+                            <output expression="&quot;Valor &#233; igual a zero&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Valor negativo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

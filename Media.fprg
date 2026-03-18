@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Media"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:58:11 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYxNDsyMDI2LTAzLTE4OyIwMjo0NjozMCAiOzI0MjM="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYxNDsyMDI2LTAzLTE4OyIwMjo1ODoxMSAiOzE7MjUzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a nota1&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a nota2&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="nota1 + nota2/2"/>
+        </body>
+    </function>
+</flowgorithm>
